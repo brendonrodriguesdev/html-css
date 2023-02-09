@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(206, 206, 240);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+}
+
+#titulo {
+    font-family: 'Unbounded', cursive;
+    background-color: rgb(212, 155, 155);
+}
+
+#titulo:hover {
+    color: white;
+}
+
+h2 {
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: normal;
+    background-color: rgb(212, 155, 155);
+    text-align: center;
+}
+
+.subtitulo:hover {
+    color: white;
+    font-size: 17px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+p:hover {
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+p > span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.links-textos {
+    font-size: 0.75em;
+    text-decoration: none;
+    color: blue;
+}
+
+.links-textos:hover {
+    background-color: white;
+    font-size: 16px;
+}
+
+.sem-italico-sublinhado {
+    font-style: normal;
+}
+
+h3 {
+    text-align: left;
+    background-color: rgba(212, 155, 155, 0.445);
+
+    font-size: 1em;
+    font-weight: 300;
+    font-family: 'Unbounded', cursive;
+
+}
+
+.especial-centro {
+    text-align: center;
+}
+
+.especial-direita {
+    text-align: right;
+}
+
+h3:hover {
+    color: white;
+    font-size: 17px;
+}
+
+li {
+    font-style: italic;
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    font-size: 1em;
+
+    list-style: none;
+}
+
+.especial {
+    text-decoration: none;
+    color: black;
+}
+
+.especial:hover {
+    background-color: rgb(212, 155, 155);
+    color: black;
+
+    font-size: 18px;
+}
+
+.recomendar1:hover {
+    color: white;
+}
+
+.recomendar1:active {
+    color: green;
+}
+
+.recomendar2:hover {
+    color: white;
+}
+
+.recomendar2:active {
+    color: green;
+}
+
+.recomendar3:hover {
+    color: white;
+}
+
+.recomendar3:active {
+    color: green;
+}
+
+.recomendar4:hover {
+    color: white
+}
+
+.recomendar4:active {
+    color: green;
+}
+
+.recomendar1::before{
+    content: "⇒";
+    color: black;
+
+}
+
+.recomendar1::after {
+    content: "⇐";
+    color: black;
+}
+
+
+.recomendar4::before {
+    content: "⇒";
+    color: black;
+}
+
+.recomendar4::after {
+    content: "⇐";
+    color: black;
+}
