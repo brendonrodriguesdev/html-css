@@ -65,11 +65,16 @@ section {
     font-size: 3vw;
 }
 
+section p {
+    padding-bottom: 50px;
+}
+
 section.imagem-fundo p {
     background-color: rgba(0, 0, 0, 0.438);
     color: white;
     display: inline-block;
     margin-left: 40px;
+    padding: 5px;
 }
 
 section#img001 {
@@ -88,4 +93,23 @@ section#img002 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte1);
+    font-weight: normal;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
