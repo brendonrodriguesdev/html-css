@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+td.nota {
+    text-align: center;
+}
+
+th#media-exatas, th#media-humanas {
+    text-align: left;
+}
+
+th.exatas, th.humanas {
+    background-color: white;
+    color: black;
+}
