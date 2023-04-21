@@ -72,3 +72,9 @@ main > h1 {
     font-size: 1.5em;
 
 }
+
+p {
+    margin: 2em 0;
+    text-align: justify;
+    text-indent: 20px;
+}
