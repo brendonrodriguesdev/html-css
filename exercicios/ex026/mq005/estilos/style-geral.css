@@ -23,8 +23,22 @@ header > h1 {
     font-size: 2em;
 }
 
-nav {
+span#burguer {
+    background-color: rgb(49, 49, 49);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+nav {
+    display: none;
 }
 
 nav > ul {
