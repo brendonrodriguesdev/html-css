@@ -3,4 +3,5 @@
 
 Estou aprendendo a criar sites e agora vou gerenciair meus repositórios!
 
-<a href="https://brendonrodriguesdev.github.io/html-css/exercicios/ex001/index.html" target="_blank">Executar o exercício 001</a>
+<a href="https://brendonrodriguesdev.github.io/html-css/exercicios/ex001/index.html" target="_blank">Exercício 01</a>
+<a href="https://brendonrodriguesdev.github.io/html-css/exercicios/ex002/index.html" target="_blank">Exercício 02</a>
